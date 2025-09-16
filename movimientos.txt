@@ -1,0 +1,3 @@
+Monto: 2000.0
+Fecha: Tue Sep 16 15:42:38 GMT-03:00 2025
+Operacio: 1

@@ -1,8 +1,7 @@
-package Clases;
-
+package com.bitabit.nadia;
 public class Persona {
     // Atributos (propiedades)
-    private String nombre;
+    String nombre;
     private String apellido;
     private int edad;
     private int dni;
