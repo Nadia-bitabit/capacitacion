@@ -22,9 +22,14 @@ public class Main {
         System.out.println(laura.getNombre() + " es clienta: " + laura.esClienta());
         System.out.println(melody.getNombre() + " es clienta: " + melody.esClienta());
 
+        //Realizar movimiento
         melody.ejecutarOperacion(movimiento);
+        //Realizar deposito
+        melody.ejecutarOperacion(deposito);
+        //Realizar extracción
+        melody.ejecutarOperacion(extraccion);
         System.out.println(melody.getOperaciones().size() + " operaciones");
-
+        //
 
     }
 }
