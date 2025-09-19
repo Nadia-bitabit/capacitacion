@@ -7,23 +7,7 @@
     <list default="true" id="ab7f9da6-a00d-4a5f-ba8d-9b476c544d50" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/movimientos.txt" beforeDir="false" afterPath="$PROJECT_DIR$/movimientos.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bitabit/nadia/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Models/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bitabit/nadia/Cuenta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Models/Cuenta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bitabit/nadia/CuentaException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Models/CuentaException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bitabit/nadia/Deposito.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Models/Deposito.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bitabit/nadia/EntidadBancaria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Models/EntidadBancaria.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bitabit/nadia/EstadoCuenta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Models/EstadoCuenta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bitabit/nadia/Extraccion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Models/Extraccion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bitabit/nadia/Hilo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Models/Hilo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bitabit/nadia/HiloRunnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Models/HiloRunnable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bitabit/nadia/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Models/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bitabit/nadia/Movimiento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Models/Movimiento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bitabit/nadia/NadiaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Models/NadiaApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bitabit/nadia/Operacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Models/Operacion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bitabit/nadia/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Models/Persona.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bitabit/nadia/Saludos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Models/Saludos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bitabit/nadia/Transferencia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Models/Transferencia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Models/PersonaDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Models/PersonaDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../nadia/movimientos.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../nadia/movimientos.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../nadia/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../nadia/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../nadia/src/main/java/com/bitabit/nadia/EntidadBancaria.java" beforeDir="false" afterPath="$PROJECT_DIR$/../nadia/src/main/java/com/bitabit/nadia/EntidadBancaria.java" afterDir="false" />
@@ -200,7 +184,7 @@
       <workItem from="1757962888809" duration="7924000" />
       <workItem from="1758141802136" duration="3994000" />
       <workItem from="1758148385625" duration="4579000" />
-      <workItem from="1758217849823" duration="9751000" />
+      <workItem from="1758217849823" duration="11766000" />
     </task>
     <servers />
   </component>

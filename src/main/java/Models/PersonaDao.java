@@ -2,10 +2,9 @@ package Models;
 
 import database.SQLDatabaseManager;
 
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.SQLException;
-import java.sql.Statement;
+import java.sql.*;
+import java.util.ArrayList;
+import java.util.List;
 
 public class PersonaDao {
 
@@ -58,4 +57,26 @@ public class PersonaDao {
             closeDBConnection();
         }
     }
+    public List<PersonaModel> obtenerPersonas() {
+        List<PersonaModel> personas = new ArrayList<>();
+        String query = "SELECT id, nombre, apellido FROM persona";
+
+        try (Statement stmt = conexion.createStatement();
+             ResultSet rs = stmt.executeQuery(query)) {
+
+            while (rs.next()) {
+                int id = rs.getInt("id"); // columna id
+                String nombre = rs.getString("nombre"); // columna nombre
+                String apellido = rs.getString("apellido"); // columna apellido
+
+                PersonaModel persona = new PersonaModel(nombre, apellido);
+                personas.add(persona);
+            }
+
+        } catch (SQLException e) {
+            System.err.println("❌ Error al obtener personas: " + e.getMessage());
+        }
+        return personas;
+    }
+
 }
