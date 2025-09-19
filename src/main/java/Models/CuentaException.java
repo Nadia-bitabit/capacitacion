@@ -1,4 +1,4 @@
-package com.bitabit.nadia;
+package Models;
 
 public class CuentaException  extends Exception {
         // Constructor con mensaje

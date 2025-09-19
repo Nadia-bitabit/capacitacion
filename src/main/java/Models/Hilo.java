@@ -1,4 +1,4 @@
-package com.bitabit.nadia;
+package Models;
 
 public class Hilo extends Thread {
 

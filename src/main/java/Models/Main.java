@@ -1,9 +1,8 @@
-package com.bitabit.nadia;
+package Models;
 
-import java.sql.Array;
+import Controller.PersonaController;
+
 import java.util.*;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
@@ -111,5 +110,11 @@ public class Main {
 
         t1.start();
         t2.start();
+
+        //Base de datos
+        PersonaController personaController = new PersonaController(new PersonaDao());
+        PersonaModel personaM = new PersonaModel("Nadia", "Lopez");
+        personaController.insertPersona(personaM);
+
     }
 }

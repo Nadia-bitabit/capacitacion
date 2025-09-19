@@ -1,4 +1,5 @@
-package com.bitabit.nadia;
+package Models;
+
 import java.util.Date;
 
 public class Operacion {
